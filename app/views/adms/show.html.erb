@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Username:</b>
+  <%= @adm.username %>
+</p>
+
+<p>
+  <b>Password:</b>
+  <%= @adm.password %>
+</p>
+
+
+<%= link_to 'Edit', edit_adm_path(@adm) %> |
+<%= link_to 'Back', adms_path %>
